@@ -118,6 +118,7 @@ h2-v {
     display: block;
     text-align: center;
     justify-content: center;
+    padding-top: 15px;
     padding-bottom: 15px;
 }
 
@@ -125,7 +126,18 @@ h4 {
     font-size: 2vh;
     color: #333333;
     /* width: 50%; */
-    max-width: 650px; 
+    max-width: 850px; 
+    padding-top: 3px;
+    padding-bottom: 3px;
+    line-height: 3.5vh;
+}
+
+h5 {
+    font-size: 20vh;
+    color: #FFBA03;
+    /* width: 50%; */
+    font-weight: bold;
+    max-width: 850px; 
     padding-top: 3px;
     padding-bottom: 3px;
     line-height: 3.5vh;
