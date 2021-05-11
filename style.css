@@ -29,6 +29,28 @@ a {
     align-content: center;
 }
 
+.container-blue {
+    display: block;
+    min-height: 90vh;
+    width: 100vw;
+    padding: 50px 10vw 30px;
+    max-height: 1200px;
+    justify-content: left;
+    align-content: center;
+    background-color: #002949;
+}
+
+.container-pink {
+    display: block;
+    min-height: 90vh;
+    width: 100vw;
+    padding: 50px 10vw 30px;
+    max-height: 1200px;
+    justify-content: left;
+    align-content: center;
+    background-color: #F9E0E6;
+}
+
 .tableauPlaceholder {
     margin: 0 auto;
 }
@@ -291,7 +313,8 @@ h6{
 
 #income {
     max-height: none;
-    background-color: #1B1D36;
+    background-color: #002949;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -314,6 +337,8 @@ h6{
 #edu {
     max-height: none;
     background-color: #F9E0E6;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #vizforedu {
