@@ -34,21 +34,19 @@ a {
     min-height: 90vh;
     width: 100vw;
     padding: 50px 10vw 30px;
-    max-height: 1200px;
     justify-content: left;
     align-content: center;
-    background-color: #002949;
+    background-color: #2E0B7F;
 }
 
-.container-pink {
+.container-purple {
     display: block;
     min-height: 90vh;
     width: 100vw;
     padding: 50px 10vw 30px;
-    max-height: 1200px;
     justify-content: left;
     align-content: center;
-    background-color: #F9E0E6;
+    background-color: #E5D9FF;
 }
 
 .tableauPlaceholder {
