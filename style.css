@@ -122,7 +122,7 @@ h2-v {
 }
 
 h4 {
-    font-size: 2vh;
+    font-size: 3vh;
     color: #333333;
     /* width: 50%; */
     max-width: 650px; 
@@ -130,6 +130,7 @@ h4 {
     padding-bottom: 3px;
     line-height: 3.5vh;
 }
+
 
 .pageh4 {
     font-size: 2vh;
@@ -147,7 +148,7 @@ h4 {
 }
 h5 {
     font-size: 16px;
-    color: #666666;
+    color: #FBF3E2;
     font-weight: lighter;
     padding-top:5px;
     padding-bottom: 5px;
@@ -163,6 +164,7 @@ h6{
     display: none;
     padding-left: 65px;
 }
+
 
 /* header and nav-bar */
 
