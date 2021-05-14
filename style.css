@@ -29,24 +29,24 @@ a {
     align-content: center;
 }
 
-.container-blue {
+.container-white {
     display: block;
     min-height: 90vh;
     width: 100vw;
     padding: 50px 10vw 30px;
     justify-content: left;
     align-content: center;
-    background-color: #2E0B7F;
+    background-color: white;
 }
 
-.container-purple {
+.container-gray {
     display: block;
     min-height: 90vh;
     width: 100vw;
     padding: 50px 10vw 30px;
     justify-content: left;
     align-content: center;
-    background-color: #E5D9FF;
+    background-color: #DCDCDC;
 }
 
 .tableauPlaceholder {
@@ -164,6 +164,7 @@ h6{
     display: none;
     padding-left: 65px;
 }
+
 
 
 /* header and nav-bar */
