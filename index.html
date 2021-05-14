@@ -1,37 +1,20 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>California Criminal Justice System</title>
+		<title>The Case for Increasing Public Defense Funding in the Bay Area</title>
 
-		<!-- Bootstrap  -->
-		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-		<!-- Bootstrap jQuery Model -->
-		
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-		<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>	 -->
-		
-
-		<!-- d3 library -->
-		<!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
-		<!-- <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script> -->
 		<script src="https://rawgit.com/misoproject/d3.chart/master/d3.chart.min.js"></script>
     	<script src="https://rawgit.com/annaghi/d3.chart.layout.hierarchy/master/d3.chart.layout.hierarchy.js"></script>
 
 		<script src="script.js"></script>
 
-		<!-- unknown imported js library -->
-		<!-- <script src="jquery-1.6.1.js"></script> -->
-		<!-- <script src="my_jquery.js"></script> -->
 		<script src="d3_code_slopegraph.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<!-- js for demography -->
 		<script type="text/javascript" src="desc.js"></script> 
 		
-		<!-- font and style sheet -->
-		<!-- <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> -->
 		
     	<link rel="stylesheet" href="./vendor/simpletimeline.css">
 		<script type="text/javascript" src="./vendor/simpletimeline-min.js"></script>
@@ -42,7 +25,6 @@
 		<script type="text/javascript" src="matchgame.js"></script>
 
 		<link rel="stylesheet" href="descstyle.css">
-		<link rel="stylesheet" href="matchgame.css">
 		<link rel="stylesheet" href="style.css">
 	</head>
 
@@ -50,9 +32,9 @@
 		<!-- Header  -->
 		<section id="header" class="nav-bar">		
 			<a href="#hero">
-				<h3>CA Criminal Justice</h3>
 			</a>			
 			<ul class="nav-list">
+				<li><a href="#Context">Context</a></li>
 				<li><a href="#Funding">Funding</a></li>
 				<li><a href="#Surveillance">Surveillance</a></li>
 				<li><a href="#Public Defense">Public Defense</a></li>
@@ -63,24 +45,24 @@
 		<!-- Headline/Introduction  -->
 		<section id="hero" class="container-white">
 			<div>
-				<h1>Funding California's Criminal Justice System</h1>
+				<h1>The Case for Increasing Public Defense Funding in the Bay Area</h1>
 			</div>
 			<img src="handcuff.jpg" alt="handcuff">
 		</section>
 
-		<!-- Funding -->
-		<section id="Funding" class="container">
-			<div id="whodesc">
-				<h2-v>California has a $277 Billion spending budget</h2-v>
-				<h4>Roughly 3% of the budget is spent on corrections & rehabilitation (e.g. prison system)<h4> 
-			</div>
-
-			<iframe width="50%" height="519" frameborder="0"
-  src="https://observablehq.com/embed/@info247-spring21/california-budget?cells=chart"></iframe>			
+		<!-- Public Defenders -->
+		<section id="Context" class="container-white">
+			<h2-v>What are Public Defenders?</h2-v>
+			<p> "A public defender is a lawyer appointed to represent people who otherwise cannot reasonably afford to hire a lawyer to defend themselves in a trial.
+The Sixth Amendment of the US Constitution requires the US government to provide free legal counsel to indigent defendants in criminal cases"</p>
 				
-			</div>
-				
+		
+		<!-- Public Defense vs. Police Funding in United States -->
+		<h2-v>Public Defense vs. Police Funding in United States</h2-v>
+		<p>Public defense is funded through a patchwork of state and county resources</p>
+		<p>In 2012, $2.2 Billion was spent on public defense. Whereas, $155 Billion was spent on policing in 2017 </p>
 		</section>
+
 
 		<!-- County Spending -->
 
@@ -109,6 +91,7 @@
 			<img src="packbot510_.png" alt="pack-510">
 			</div>
 		</section>
+	
 		<!-- Bay Area Surveillence Tech -->
 		<section id="Major-tech" class="container-white">
 		<div>
@@ -127,8 +110,30 @@
 
 		</section>	
 
-		<!-- Jail Population -->
+		<!-- Effects on Racial Make Up of Jail Population -->
+		<section id="Jail" class="container-gray">
+		<h2-v>Effects on Racial Make Up of Jail Population</h2-v>
+		<h4> While only 6% of California's population, black people make up 21% of the jail population in California (2018)<h4> 
 		<div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/6142599"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+		</section>
+
+		<!-- Jail Pretrial Population & Bail -->
+		<section id="Jail Pretrial Population & Bail" class="container-gray">
+		<div>
+		
+		<h2-v>LINE CHART</h2-v>
+		</div>
+
+		</section>
+		
+		<!-- Prison Funding Priorities -->
+		<section id="Prison Funding Priorities" class="container-gray">
+		<div>
+
+		<h2-v>SUNBURST CHART - something about how its not quite a rehab focused thing</h2-v>
+		</div>
+
+		</section>
 
 		<!-- Conclusion -->
 		<section id="final" class="container">
@@ -136,6 +141,16 @@
 			<h2-v>Conclusion</h2-v>
 			<div>
 				<h4> *Something about increasing community services* </h4>
+			</div>
+			
+		</section>
+			
+		<!-- References -->
+		<section id="reference" class="container">
+
+			<h2-v>References</h2-v>
+			<div>
+			<h4> List References </h4>
 			</div>
 			
 		</section>
