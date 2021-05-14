@@ -78,8 +78,8 @@ p {
 }
 
 p-v{
-    color: #EEEEEE;
-    font-size: 16px;
+    color: #333333;
+    font-size: 3vh;
     font-weight: 400px;
     max-width: 1000px;
     padding-bottom: 5px;
