@@ -31,7 +31,7 @@ a {
 
 .container-white {
     display: block;
-    min-height: 90vh;
+    min-height: 50vh;
     width: 100vw;
     padding: 100px 10vw 100px;
     justify-content: left;
@@ -50,7 +50,7 @@ a {
 
 .container-gray {
     display: block;
-    min-height: 90vh;
+    min-height: 50vh;
     width: 100vw;
     padding: 100px 10vw 100px;
     justify-content: left;
