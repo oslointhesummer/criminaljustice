@@ -306,17 +306,17 @@ h6{
     border-radius: 20px; 
 }
 
-/* Where are they */
-#location {
-    background-color: #FBF3E1;
-}
-
-/* County expenditures */
-#CountySpendingImage {
+/* Images */
+.CenteredImage {
     max-width: 1000px;
     display:block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Where are they */
+#location {
+    background-color: #FBF3E1;
 }
 
 /* income inequality */
