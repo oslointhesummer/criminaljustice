@@ -133,6 +133,11 @@ h4 {
     line-height: 3.5vh;
 }
 
+.CenteredTextContainer {
+    display:flex;  
+    flex-flow: column;
+    align-items: center;
+}
 
 .pageh4 {
     font-size: 2vh;
