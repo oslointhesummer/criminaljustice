@@ -311,6 +311,14 @@ h6{
     background-color: #FBF3E1;
 }
 
+/* County expenditures */
+#CountySpendingImage {
+    max-width: 1000px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* income inequality */
 
 #income {
