@@ -23,7 +23,7 @@ a {
     display: block;
     min-height: 90vh;
     width: 100vw;
-    padding: 15px 10vw 30px;
+    padding: 100px 10vw 100px;
     max-height: 1200px;
     justify-content: center;
     align-content: center;
@@ -33,7 +33,7 @@ a {
     display: block;
     min-height: 90vh;
     width: 100vw;
-    padding: 50px 10vw 30px;
+    padding: 100px 10vw 100px;
     justify-content: left;
     align-content: center;
     background-color: white;
@@ -43,7 +43,7 @@ a {
     display: block;
     min-height: 90vh;
     width: 100vw;
-    padding: 50px 10vw 30px;
+    padding: 100px 10vw 100px;
     justify-content: left;
     align-content: center;
     background-color: #DCDCDC;
@@ -97,7 +97,7 @@ p-v{
     line-height: 28px;
     margin-left: auto;
     margin-right: auto;
-    text-align: inherit;
+    text-align: center;
     padding-top: 5vh;
 }
 
