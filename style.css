@@ -39,11 +39,29 @@ a {
     background-color: white;
 }
 
+.mini-white {
+    display: block;
+    width: 100vw;
+    padding: 0px 10vw 100px;
+    justify-content: left;
+    align-content: center;
+    background-color: white;
+}
+
 .container-gray {
     display: block;
     min-height: 90vh;
     width: 100vw;
     padding: 100px 10vw 100px;
+    justify-content: left;
+    align-content: center;
+    background-color: #DCDCDC;
+}
+
+.mini-gray {
+    display: block;
+    width: 100vw;
+    padding: 0px 10 100px;
     justify-content: left;
     align-content: center;
     background-color: #DCDCDC;
