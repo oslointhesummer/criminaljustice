@@ -323,10 +323,17 @@ h6{
 .one {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.oneDiv {
+    width: 400px;
 }
 
 .flexSec {
-    width: 100%;
+    /* width: 100%; */
+    width: 500px;
 }
 
 
