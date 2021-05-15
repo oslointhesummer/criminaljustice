@@ -61,10 +61,10 @@ a {
 .mini-gray {
     display: block;
     width: 100vw;
-    padding: 0px 10 100px;
+    padding: 0px 10vw 100px;
     justify-content: left;
     align-content: center;
-    background-color: #DCDCDC;
+    background-color: #EBEBEB;
 }
 
 .tableauPlaceholder {
