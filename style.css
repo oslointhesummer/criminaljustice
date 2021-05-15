@@ -314,6 +314,11 @@ h6{
     margin-right: auto;
 }
 
+.one {
+    display: flex;
+    align-items: center;
+}
+
 /* Where are they */
 #location {
     background-color: #FBF3E1;
