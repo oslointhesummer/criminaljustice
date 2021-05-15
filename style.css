@@ -319,6 +319,12 @@ h6{
     align-items: center;
 }
 
+.flexLeft {
+    width: 100%;
+}
+
+
+
 /* Where are they */
 #location {
     background-color: #FBF3E1;
