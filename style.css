@@ -155,7 +155,6 @@ h4 {
     display:flex;  
     flex-flow: column;
     align-items: center;
-     max-width: 650px; 
 }
 
 .pageh4 {
