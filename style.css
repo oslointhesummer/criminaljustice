@@ -83,7 +83,7 @@ body {
 
 p {
     color: #262626;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400px;
     font-family: 'Source Sans Pro', sans-serif;
     max-width: 750px;
@@ -141,7 +141,7 @@ h2-v {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 22px;
     color: #333333;
     /* width: 50%; */
     max-width: 650px; 
